@@ -6,6 +6,8 @@ Usage
 Install python-midi https://github.com/vishnubob/python-midi
 
 To invert all files in a given directory
-`python midiProcess.py "c:/temp/midis/" -i`
+```
+python midiProcess.py -p "c:/temp/midis/" -i
+```
 
 Note: output is same directory with a added "_out" string
